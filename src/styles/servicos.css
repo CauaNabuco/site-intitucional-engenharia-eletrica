@@ -91,13 +91,14 @@
     color: aliceblue;
     padding: 2px 15px 4px 15px;
     border-radius: 20px;
+    
 }
 .btn-card:hover{
-    background-color:rgba(213, 213, 213, 0.088);
+    background-color:rgba(213, 213, 213, 0.185);
     outline: 1px solid rgb(213, 213, 213);
     color: aliceblue;
     border-radius: 15px;
-    transform: translateY(-1.5px);
+    
 }
 .btn-card a{
     color: aliceblue;

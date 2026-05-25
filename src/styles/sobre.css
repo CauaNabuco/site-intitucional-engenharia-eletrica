@@ -69,7 +69,7 @@
 #btn-responsavel a{
     background-color:rgb(240, 238, 238);
     color: var(--cor-texto1);
-    padding: 13px 14%;
+    padding: 13px 15%;
     border-radius: 15px;
     transition: transform 0.2s ease;
 }
@@ -227,13 +227,16 @@
         font-size: 13px;
     }
     #btn-responsavel a{
-        padding: 13px 7%;
+        padding: 13px 8%;
     }
 }
 @media screen and (max-width:426px){
     
     #conteudo-sobre p{
         font-size: 13px;
+    }
+    #btn-responsavel a{
+        padding: 13px 7%;
     }
 }
 @media screen and (max-width:398px){
@@ -242,16 +245,17 @@
         font-size: 13px;
     }
     #btn-responsavel a{
-        padding: 13px 5%;
+        padding: 13px 6%;
     }
+    
 }
-@media screen and (max-width:359px){
+@media screen and (max-width:365px){
     
     #conteudo-sobre p{
         font-size: 13px;
     }
     #btn-responsavel a{
-        padding: 11px 4%;
+        padding: 11px 5%;
     }
 }
 @media screen and (max-width:350px){
