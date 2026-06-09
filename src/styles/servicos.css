@@ -1,5 +1,5 @@
 .servicos {
-    padding: 50px 3%;
+    padding: 35px 3% 50px 3%;
 }
 .servicos h2 {
     font-size: 20px;
@@ -30,7 +30,7 @@
     padding-top: 20px;
 }
 #card-item1{
-    background-image: url(../images/energia-solar.jpg);
+    background-image: url(../images/energia-solar.jpeg);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
@@ -94,8 +94,9 @@
     
 }
 .btn-card:hover{
-    background-color:rgba(213, 213, 213, 0.185);
-    outline: 1px solid rgb(213, 213, 213);
+    background-color:rgba(92, 92, 92, 0.133);
+    backdrop-filter: blur(10px);
+    outline: 1px solid rgba(213, 213, 213, 0.312);
     color: aliceblue;
     border-radius: 15px;
     

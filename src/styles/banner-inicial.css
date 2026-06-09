@@ -12,9 +12,9 @@
     height: 500px;
     background-color: var(--cor-fundo);
     border-radius: var(--border-radius);
-    background-image: url(../images/image-banner-inicial.png);
+    background-image: url(../images/Gemini_Generated_Image_3sk2p23sk2p23sk2.png);
     background-size: cover;
-    background-position: bottom;
+    background-position: center 75%;
     background-repeat: no-repeat;
     padding: 30px 3%;
 
@@ -30,7 +30,7 @@
 #paragrafo p{
     width: 38%;
     color: aliceblue;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
 }
 #paragrafo img{
@@ -67,6 +67,9 @@
     #icon img{
         width: 60px;
     }
+    #banner-inicial{
+        height: 450px;
+    }
 }
 @media screen and (max-width: 676px){
     #titulo h1{
@@ -79,6 +82,9 @@
     }
     #icon img{
         width: 55px;
+    }
+    #banner-inicial{
+        height: 400px;
     }
 }
 @media screen and (max-width: 578px){
@@ -96,6 +102,9 @@
     #paragrafo p{
         width: 50%;
     }
+    #banner-inicial{
+        height: 350px;
+    }
 }
 @media screen and (max-width: 484px){
     #titulo h1{
@@ -110,25 +119,25 @@
         width: 40px;
     }
     #banner-inicial{
-        height: 450px;
+        height: 330px;
     }
 }
-@media screen and (max-width: 388px){
+@media screen and (max-width: 392px){
     #titulo h1{
         font-size: 30px;
         
     }
     #text p{
-        font-size: 10px;
+        font-size: 9px;
         
     }
     #icon img{
         width: 30px;
     }
     #banner-inicial{
-        height: 400px;
+        height: 300px;
     }
      #paragrafo p{
-        width: 60%;
+        width: 70%;
     }
 }
