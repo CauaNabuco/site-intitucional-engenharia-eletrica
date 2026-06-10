@@ -1,5 +1,7 @@
+/*Solar*/
+
 #card-item1{
-    background-image: url(../images/energia-solar.jpeg);
+    background-image: url(../images/energia-solar-projeto.png);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
@@ -7,7 +9,7 @@
 
 } 
 #card-item2{
-    background-image: url(../images/projeto-energia-solar.jpeg);
+    background-image: url(../images/energia-solar-projeto2.png);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
@@ -15,7 +17,7 @@
 
 } 
 #card-item3{
-    background-image: url(../images/energia-solar-projeto23jpg.jpg);
+    background-image: url(../images/energia-solar-projeto4.png);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
@@ -23,7 +25,7 @@
 
 } 
 #card-item4{
-    background-image: url(../images/energia-solar-projeto2.jpg);
+    background-image: url(../images/energia-solar-projeto5.png);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
@@ -31,7 +33,64 @@
 
 } 
 #card-item5{
-    background-image: url(../images/energia-solar-projeto1.jpg);
+    background-image: url(../images/energia-solar-projeto6.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item6{
+    background-image: url(../images/energia-solar-projeto7.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+}
+#card-item7{
+    background-image: url(../images/energia-solar-projeto3.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+}
+/*Projeto eletrico*/
+#card-item8{
+    background-image: url(../images/projeto-eletrico-card1.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item9{
+    background-image: url(../images/projeto-eletrico-card2.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item10{
+    background-image: url(../images/projeto-eletrico-card3.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item11{
+    background-image: url(../images/projeto-eletrico-card5.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item12{
+    background-image: url(../images/projeto-eletrico-card4.png);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
@@ -39,6 +98,50 @@
 
 } 
 
+/*SPDA*/
+#card-item13{
+    background-image: url(../images/spda-card.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item14{
+    background-image: url(../images/spda-card2.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item15{
+    background-image: url(../images/spda-card3.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item16{
+    background-image: url(../images/spda-card4.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+ 
+/*subestação aérea*/
+#card-item17{
+    background-image: url(../images/subestacao-aerea-card.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+ 
 #descrição-serviço{
     display: flex;
     justify-content: center;
