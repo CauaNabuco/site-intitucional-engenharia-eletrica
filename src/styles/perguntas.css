@@ -17,6 +17,7 @@
     border-radius: 10px;
     padding: 18px;
     cursor: pointer;
+    width: 100%;
 
 }
 .pergunta:hover{
@@ -34,9 +35,7 @@
 }
 .pergunta-header span{
     max-width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    text-align: left;
     color: var(--cor-texto1);
 }
 #pergunta-header i{
@@ -52,12 +51,16 @@
     height: 0;
     overflow: hidden;
     transition: opacity .3s;
+    
 }
 .pergunta-body.active {
     height: 100%;
     opacity: 1;
     padding: 5px 0px;
 
+}
+.pergunta-header span p{
+    
 }
 .arrow{
     transition: transform .2s linear;
@@ -86,9 +89,17 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 732px){
     .pergunta-header span p{
         font-size: 16px;
+    }
+}
+@media screen and (max-width: 505px){
+    .pergunta-header span p{
+        font-size: 14px;
+        .pergunta-body{
+            font-size: 12px;
+        }
     }
 }
 @media screen and (max-width: 360px){

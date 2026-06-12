@@ -34,7 +34,7 @@
     width: 50%;
     height: 100%;
     background-color: var(--cor-fundo);
-    border-radius: 0px 0px var(--border-radius) var(--border-radius);
+    border-radius: var(--border-radius);
 
 }
 #container-responsavel{
@@ -48,6 +48,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
 }
 #container-crea{
     display: flex;
