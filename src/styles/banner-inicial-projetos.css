@@ -8,7 +8,7 @@
     height: 500px;
     background-color: var(--cor-fundo);
     border-radius: var(--border-radius);
-    background-image: url(../images/energia-solar.jpg);
+    background-image: url(../images/energia-solar.webp);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
     height: 500px;
     background-color: var(--cor-fundo);
     border-radius: var(--border-radius);
-    background-image: url(../images/projeto-eletrico-card.png);
+    background-image: url(../images/projeto-eletrico-card.webp);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@
     height: 500px;
     background-color: var(--cor-fundo);
     border-radius: var(--border-radius);
-    background-image: url(../images/Imagem\ SPDA.png);
+    background-image: url(../images/Imagem\ SPDA.webp);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@
     height: 500px;
     background-color: var(--cor-fundo);
     border-radius: var(--border-radius);
-    background-image: url(../images/subestacao-aerea-banner.png);
+    background-image: url(../images/subestacao-aerea-banner.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@
     height: 500px;
     background-color: var(--cor-fundo);
     border-radius: var(--border-radius);
-    background-image: url(../images/medicao-agrupada\ -\ banner.png);
+    background-image: url(../images/medicao-agrupada\ -\ banner.webp);
     background-size: cover;
     background-position: center left;
     background-repeat: no-repeat;

@@ -15,7 +15,7 @@
     height: 500px;
     background-color: var(--cor-fundo);
     border-radius: var(--border-radius);
-    background-image: url(../images/banner-indique3.1.png);
+    background-image: url(../images/banner-indique3.1.webp);
     background-size: cover;
     background-position:  center;
     background-repeat: no-repeat;
@@ -29,40 +29,40 @@
 
 @media screen and (max-width: 1190px){
     #banner-indique{
-        background-image: url(../images/banner-indique6.png);
+        background-image: url(../images/banner-indique6.webp);
         height: 450px;
     }
 }
 @media screen and (max-width: 670px){
     #banner-indique{
-        background-image: url(../images/banner-indique7.png);
+        background-image: url(../images/banner-indique7.webp);
         height: 450px;
     }
 }
 @media screen and (max-width: 751px){
     #banner-indique{
-        background-image: url(../images/banner-indique8.png);
+        background-image: url(../images/banner-indique8.webp);
         height: 450px;
         background-position: center 30%;
     }
 }
 @media screen and (max-width: 467px){
     #banner-indique{
-        background-image: url(../images/banner-indique4.png);
+        background-image: url(../images/banner-indique4.webp);
         height: 450px;
     }
 }
 @media screen and (max-width: 382px){
     #banner-indique{
         height: 400px;
-        background-image: url(../images/banner-indique5.png);
+        background-image: url(../images/banner-indique5.webp);
         
     }
 }
 @media screen and (max-width: 382px){
     #banner-indique{
         height: 400px;
-        background-image: url(../images/banner-indique5.png);
+        background-image: url(../images/banner-indique5.webp);
         
     }
 }

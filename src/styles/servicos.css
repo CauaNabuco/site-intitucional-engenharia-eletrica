@@ -30,7 +30,7 @@
     padding-top: 20px;
 }
 #card-item1{
-    background-image: url(../images/energia-solar.png);
+    background-image: url(../images/energia-solar\ \(1\).webp);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 
 } 
 #card-item2{
-    background-image: url(../images/projeto-eletrico-card.png);
+    background-image: url(../images/projeto-eletrico-card.webp);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@
 
 } 
 #card-item3{
-    background-image: url(../images/Imagem\ SPDA.png);
+    background-image: url(../images/Imagem\ SPDA.webp);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
 
 } 
 #card-item4{
-    background-image: url(../images/subestacao-aerea.png);
+    background-image: url(../images/subestacao-aerea.webp);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 
 } 
 #card-item5{
-    background-image: url(../images/medicao-agrupada.png);
+    background-image: url(../images/medicao-agrupada.webp);
     background-size: cover;
     background-position: center 62%;
     background-repeat: no-repeat;
