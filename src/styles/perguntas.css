@@ -59,8 +59,15 @@
     padding: 5px 0px;
 
 }
-.pergunta-header span p{
+#titulo-perguntas{
     
+    padding: 10px 3%;
+}
+#titulo-perguntas h2{
+    font-size: 20px;
+    color: var(--cor-texto1);
+    font-weight: 500;
+    display: none;
 }
 .arrow{
     transition: transform .2s linear;
@@ -92,6 +99,9 @@
 @media screen and (max-width: 732px){
     .pergunta-header span p{
         font-size: 16px;
+    }
+    #titulo-perguntas h2{
+        display: block;
     }
 }
 @media screen and (max-width: 505px){
