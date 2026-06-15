@@ -17,3 +17,6 @@
 body{
   background-color: white;
 }
+a, button, [role="button"] {
+    -webkit-tap-highlight-color: transparent;
+}

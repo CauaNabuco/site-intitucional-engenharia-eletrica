@@ -12,6 +12,11 @@
     gap: 10px;
     width: 70%;
 }
+
+.pergunta, button, .pergunta-header, .pergunta-body, .pergunta-header * {
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-touch-callout: none; 
+}
 .pergunta{
     background-color: var(--cor-fundo);
     border-radius: 10px;
