@@ -10,8 +10,7 @@
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <link rel="preload" as="image" href="src/images/banner-inicial.webp" fetchpriority="high">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <link rel="shortcut icon" href="src/images/favicon-eletric-nabuco.webp" type="image/x-icon">
     <link rel="stylesheet" href="">
@@ -87,6 +86,14 @@
 
         <section id="container-banner-inicial">
             <div id="banner-inicial">
+                <img
+        id="banner-image"
+        src="src/images/banner-inicial.webp"
+        alt="Equipe da Eletric Nabuco realizando serviços elétricos"
+        width="1920"
+        height="900"
+        fetchpriority="high"
+        loading="eager">
                 <div id="paragrafo">
                     <div id="icon">
                         <img src="src/images/icon-asterisco.webp" alt="icone">

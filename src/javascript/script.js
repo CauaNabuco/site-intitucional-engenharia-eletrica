@@ -1,6 +1,16 @@
-$(document).ready(function(){
-    $('#btn-mobile').on('click', function(){
-        $('#mobile-menu').toggleClass('active')
-        $('#btn-mobile').find('i').toggleClass('fa-bars-staggered fa-xmark')  
-    })
-})
+const btnMobile = document.getElementById('btn-mobile');
+
+const mobileMenu = document.getElementById('mobile-menu');
+
+const icon = btnMobile.querySelector('i');
+
+
+btnMobile.addEventListener('click', () => {
+
+    mobileMenu.classList.toggle('active');
+
+    icon.classList.toggle('fa-bars-staggered');
+
+    icon.classList.toggle('fa-xmark');
+
+});
