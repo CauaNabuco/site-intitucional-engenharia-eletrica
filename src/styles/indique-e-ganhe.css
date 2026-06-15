@@ -26,44 +26,7 @@
     display: block;
     width: 100%;
 }
-#titulo-indique{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-#titulo-indique h2{
-    font-size: 120px;
-    color: aliceblue;
-    font-weight: 500;
-    text-align: center;
-}
-#titulo-indique p{
-    color: rgb(230, 239, 248);
-    font-weight: 500;
-    font-size: 21px;
-    text-align: center;
-}
 
-#button-indique a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 50px;
-    background-color: aliceblue;
-    color: #2bade9;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: var(--border-radius);
-    transition: 0.3s ;
-}
-#button-indique a:hover{
-    background-color:transparent;
-    outline: 1px solid rgb(255, 255, 255);
-    color: aliceblue;
-    
-}
 @media screen and (max-width: 1190px){
     #banner-indique{
         background-image: url(../images/banner-indique6.png);
