@@ -1,0 +1,216 @@
+/*solar*/
+
+#banner-inicial-solar{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 94%;
+    height: 500px;
+    background-color: var(--cor-fundo);
+    border-radius: var(--border-radius);
+    background-image: url(../images/energia-solar.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 30px 3%;
+
+}
+/*projeto elétrico*/
+#banner-inicial-eletrico{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 94%;
+    height: 500px;
+    background-color: var(--cor-fundo);
+    border-radius: var(--border-radius);
+    background-image: url(../images/projeto-eletrico-card.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 30px 3%;
+
+}
+/*SPDA*/
+#banner-inicial-spda{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 94%;
+    height: 500px;
+    background-color: var(--cor-fundo);
+    border-radius: var(--border-radius);
+    background-image: url(../images/Imagem\ SPDA.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 30px 3%;
+
+}
+#banner-inicial-subestacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 94%;
+    height: 500px;
+    background-color: var(--cor-fundo);
+    border-radius: var(--border-radius);
+    background-image: url(../images/subestacao-aerea-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 3%;
+
+}
+/*medição agrupada*/
+#banner-inicial-medicao{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 94%;
+    height: 500px;
+    background-color: var(--cor-fundo);
+    border-radius: var(--border-radius);
+    background-image: url(../images/medicao-agrupada\ -\ banner.png);
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding: 30px 3%;
+
+}
+
+@media screen and (max-width: 911px){
+    #banner-inicial-solar{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 700px){
+    #banner-inicial-solar{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 457px){
+    #banner-inicial-solar{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 457px){
+    #banner-inicial-solar{
+        height: 230px;
+    }
+}
+@media screen and (max-width: 382px){
+    #banner-inicial-solar{
+        height: 200px;
+    }
+}
+
+
+/*projeto elétrico*/
+
+@media screen and (max-width: 911px){
+    #banner-inicial-eletrico{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 700px){
+    #banner-inicial-eletrico{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 457px){
+    #banner-inicial-eletrico{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 457px){
+    #banner-inicial-eletrico{
+        height: 230px;
+    }
+}
+@media screen and (max-width: 382px){
+    #banner-inicial-eletrico{
+        height: 200px;
+    }
+}
+
+/*SPDA*/
+@media screen and (max-width: 911px){
+    #banner-inicial-spda{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 700px){
+    #banner-inicial-spda{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 457px){
+    #banner-inicial-spda{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 457px){
+    #banner-inicial-spda{
+        height: 230px;
+    }
+}
+@media screen and (max-width: 382px){
+    #banner-inicial-spda{
+        height: 200px;
+    }
+}
+
+/*subestação aérea*/
+@media screen and (max-width: 911px){
+    #banner-inicial-subestacao{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 700px){
+    #banner-inicial-subestacao{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 457px){
+    #banner-inicial-subestacao{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 457px){
+    #banner-inicial-solsubestacaoar{
+        height: 230px;
+    }
+}
+@media screen and (max-width: 382px){
+    #banner-inicial-subestacao{
+        height: 200px;
+    }
+}
+
+/*medição agrupada*/
+@media screen and (max-width: 911px){
+    #banner-inicial-medicao{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 700px){
+    #banner-inicial-medicao{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 457px){
+    #banner-inicial-medicao{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 457px){
+    #banner-inicial-medicao{
+        height: 230px;
+    }
+}
+@media screen and (max-width: 382px){
+    #banner-inicial-medicao{
+        height: 200px;
+    }
+}
