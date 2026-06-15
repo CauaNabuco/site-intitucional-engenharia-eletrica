@@ -47,12 +47,22 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 #servicos ul{
     list-style: none;
 }
 #servicos ul li a{
     color: #444;
+}
+.icon-footer{
+    width: 28px;
+    height: 28px;
+    color: #575757;
+    
+}
+.icon-footer:hover{
+    color: var(--cor-primaria);
 }
 #servicos ul li a:hover{
     background: linear-gradient(270deg, #2a82ae,var(--cor-primaria));
@@ -148,6 +158,10 @@
     #footer-info p{
         font-size: 14px;
     }
+    .icon-footer{
+        width: 25px;
+        height: 25px;
+    }
 }
 @media screen and (max-width: 519px){
     .p-footer{
@@ -158,10 +172,15 @@
     }
     #contatos ul{
         font-size: 18px;
+     
     }
     .container-menus{
         width: 90%;
         gap: 50px;
+    }
+    .icon-footer{
+        width: 20px;
+        height: 20px;
     }
     
 }
