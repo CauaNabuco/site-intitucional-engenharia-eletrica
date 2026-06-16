@@ -70,7 +70,7 @@
 #btn-responsavel a{
     background-color:rgb(240, 238, 238);
     color: var(--cor-texto1);
-    padding: 13px 15%;
+    padding: 13px 17%;
     border-radius: 15px;
     transition: transform 0.2s ease;
 }
@@ -123,7 +123,7 @@
 @media screen and (max-width:1500px){
     
     #btn-responsavel a{
-        padding: 13px 13%;
+        padding: 13px 16%;
     }
 }
 @media screen and (max-width:1286px){
@@ -132,14 +132,16 @@
         font-size: 14px;
     }
     #btn-responsavel a{
-        padding: 13px 12%;
+        padding: 13px 15%;
     }
 }
 @media screen and (max-width:1159px){
     #conteudo-sobre p{
         font-size: 13px;
     }
-    
+    #btn-responsavel a{
+        padding: 13px 14%;
+    }
 }
 @media screen and (max-width:1090px){
     
@@ -147,14 +149,14 @@
         font-size: 12px;
     }
     #btn-responsavel a{
-        padding: 13px 11%;
+        padding: 13px 14%;
     }
 }
 @media screen and (max-width:1012px){
     
   
     #btn-responsavel a{
-        padding: 13px 9%;
+        padding: 13px 13%;
     }
 }
 @media screen and (max-width:984px){
@@ -173,7 +175,7 @@
         width: 100%;
     }
     #btn-responsavel a{
-        padding: 13px 15%;
+        padding: 13px 18%;
     }
 }
 @media screen and (max-width:850px){
@@ -184,11 +186,13 @@
         width: 100%;
         padding: 4% 2%;
     }
-    
+    #btn-responsavel a{
+        padding: 13px 17%;
+    }
 }
 @media screen and (max-width:703px){
      #btn-responsavel a{
-        padding: 13px 13%;
+        padding: 13px 16%;
     }
     
 }
@@ -197,20 +201,24 @@
     #conteudo-sobre p{
         font-size: 15px;
     }
+    #btn-responsavel a{
+        padding: 13px 15%;
+    }
 }
 @media screen and (max-width:585px){
     
     #conteudo-sobre p{
         font-size: 15px;
     }
-    #btn-responsavel a{
-        padding: 13px 11%;
-    }
+    
 }
 @media screen and (max-width:545px){
     
     #conteudo-sobre p{
         font-size: 14px;
+    }
+    #btn-responsavel a{
+        padding: 13px 14%;
     }
 }
 @media screen and (max-width:507px){
@@ -219,7 +227,7 @@
         font-size: 14px;
     }
     #btn-responsavel a{
-        padding: 13px 9%;
+        padding: 13px 13%;
     }
 }
 @media screen and (max-width:467px){
@@ -228,7 +236,7 @@
         font-size: 13px;
     }
     #btn-responsavel a{
-        padding: 13px 8%;
+        padding: 13px 12%;
     }
 }
 @media screen and (max-width:426px){
@@ -237,7 +245,7 @@
         font-size: 13px;
     }
     #btn-responsavel a{
-        padding: 13px 7%;
+        padding: 13px 11%;
     }
 }
 @media screen and (max-width:398px){
@@ -246,7 +254,7 @@
         font-size: 13px;
     }
     #btn-responsavel a{
-        padding: 13px 6%;
+        padding: 13px 10%;
     }
     
 }
@@ -256,7 +264,7 @@
         font-size: 13px;
     }
     #btn-responsavel a{
-        padding: 11px 5%;
+        padding: 11px 9%;
     }
 }
 @media screen and (max-width:350px){
@@ -265,7 +273,7 @@
         font-size: 13px;
     }
     #btn-responsavel a{
-        padding: 11px 3%;
+        padding: 11px 8%;
     }
 }
 @media screen and (max-width:330px){
