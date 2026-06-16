@@ -46,22 +46,21 @@
         background-position: center 30%;
     }
 }
+@media screen and (max-width: 531px){
+    #banner-indique{
+        background-image: url(../images/banner-indique4.webp);
+        height: 440px;
+    }
+}
 @media screen and (max-width: 467px){
     #banner-indique{
         background-image: url(../images/banner-indique4.webp);
-        height: 450px;
+        height: 440px;
     }
 }
 @media screen and (max-width: 382px){
     #banner-indique{
-        height: 400px;
-        background-image: url(../images/banner-indique5.webp);
-        
-    }
-}
-@media screen and (max-width: 382px){
-    #banner-indique{
-        height: 400px;
+        height: 300px;
         background-image: url(../images/banner-indique5.webp);
         
     }
