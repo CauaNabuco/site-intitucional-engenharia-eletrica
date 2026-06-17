@@ -141,7 +141,24 @@
    
 
 } 
- 
+
+/*Medição Agrupada*/
+#card-item18{
+    background-image: url(../images/medicao-agrupada1.webp);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item19{
+    background-image: url(../images/medicao-agrupada2.1.webp);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
 #descrição-serviço{
     display: flex;
     justify-content: center;
